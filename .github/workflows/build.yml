@@ -9,7 +9,7 @@ jobs:
         os: [windows-latest]
         build_type: [Release]
         ui: [gui]
-        scripting: [lua, noscripts]
+        scripting: [lua]
         exclude:
           - build_type: Debug
             ui: gui
@@ -99,5 +99,5 @@ jobs:
       with:
         name: aseprite
         path: |
-          D:/a/aseprite/aseprite/build/bin/data
-          D:/a/aseprite/aseprite/build/bin/aseprite.exe
+          D:/aseprite/aseprite/build/bin/data
+          D:/aseprite/aseprite/build/bin/aseprite.exe
